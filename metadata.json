@@ -1,0 +1,6 @@
+{
+  "name": "M.G.R Furniture & Interior Design",
+  "description": "Premium luxury home decor and furniture e-commerce platform with interactive 2D room staging, idea boards, sales ranking, and custom interior design consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
