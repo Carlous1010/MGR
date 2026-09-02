@@ -2,18 +2,43 @@
 
 @layer base {
   :root {
-    --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
-    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-poppins: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   }
 
   body {
-    font-family: var(--font-sans);
+    font-family: var(--font-poppins);
     background-color: #F9F7F2;
     color: #2C2C2C;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
-  h1, h2, h3, h4, h5, .font-serif-luxury {
-    font-family: var(--font-serif);
+  h1, h2, h3, h4, h5, h6, .font-serif-luxury, .font-display, .font-heading {
+    font-family: var(--font-poppins) !important;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+
+  b, strong, .font-bold {
+    font-weight: 700 !important;
+  }
+
+  .font-extrabold {
+    font-weight: 800 !important;
+  }
+
+  .font-black {
+    font-weight: 900 !important;
+  }
+
+  .font-semibold {
+    font-weight: 600 !important;
+  }
+
+  .font-medium {
+    font-weight: 500 !important;
   }
 }
 
